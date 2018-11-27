@@ -38,17 +38,17 @@
     ],
     "latex-workshop.latex.recipes": [
         {
+            "name": "PDFLaTeX",
+            "tools": [
+                "pdflatex"
+            ]
+        },
+        {
             "name": "pdflatex -> bibtex -> pdflatex*2",
             "tools": [
                 "pdflatex",
                 "bibtex",
                 "pdflatex",
-                "pdflatex"
-            ]
-        },
-        {
-            "name": "PDFLaTeX",
-            "tools": [
                 "pdflatex"
             ]
         },
