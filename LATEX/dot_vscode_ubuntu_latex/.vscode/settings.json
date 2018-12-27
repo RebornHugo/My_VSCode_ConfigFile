@@ -53,6 +53,7 @@
             "args": [
                 "-synctex=1",
                 "-interaction=nonstopmode",
+                "-xelatex",
                 "-file-line-error",
                 "-pdf",
                 "%DOC%"
@@ -78,15 +79,15 @@
     ],
     "latex-workshop.latex.recipes": [
         {
-            "name": "XeLaTeX",
-            "tools": [
-                "xelatex"
-            ]
-        },
-        {
             "name": "latexmk",
             "tools": [
                 "latexmk"
+            ]
+        },
+        {
+            "name": "XeLaTeX",
+            "tools": [
+                "xelatex"
             ]
         },
         {
