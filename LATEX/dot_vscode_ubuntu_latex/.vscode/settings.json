@@ -1,4 +1,8 @@
 {
+    "workbench.colorCustomizations": {
+        "editorCursor.foreground": "#FF0000",
+        "terminalCursor.foreground": "#FF0000"
+    },
     "cSpell.enabled": true,
     "editor.cursorBlinking": "solid",
     "editor.wordWrap": "on",
